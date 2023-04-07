@@ -32,7 +32,7 @@ const Header = () => {
           <ul className="navbar-nav">
             <li className="nav-item">
               <Link className="nav-link js-scroll-trigger" to="/">
-                About
+                Home
               </Link>
             </li>
             {/* <li className="nav-item">
