@@ -1,0 +1,37 @@
+-> es7+ React/redux /react-native install this extension
+-> npm i react-router-dom (we need to install a new package inorder to use routing)
+-> it is not showing image when in the mobile mode, need to check with css aswell.
+->  <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/experience" element={<Experience />} />
+          <Route path="/education" element={<Education />} />
+          <Route path="/skills" element={<Skills />} />
+          <Route path="/interests" element={<Interest />} />
+          <Route path="/awards" element={<Award />} />
+        </Routes>
+      </BrowserRouter>
+
+      inside BrowserRouter we have Routes, 
+      ad inside that we have different urls where we will rounte.
+      
+
+rafce -> this command will give basic commands for the page.....(provided we have installed the above extension)
+-> all pages have their first later in capslock
+-> ctrl + space , to show the snippets.
+-> <Route path="/" element={<Home />} />
+    it means, when we are at / i.e. at home page then we show the home page.
+->import { BrowserRouter, Routes, Route } from "react-router-dom"; 
+        this needs to be imported to use the routes in App.js file`
+-> import Award from "./pages/Award";  
+        this is how we import the pages which we created in pages folder, to App.js file.
+
+->  element={<Home />}
+    this Home is a component which is inside src/pages directory.
+    in all such component we will be using Header component so we put that in src/components directory, we can import and use that in all the pages.
+
+-> use className instead of class
+-> and use Link instad of a tags (so that our page do not reload)
+    and in that instead of using "href" we use "to"
+    eg: <Link class="nav-link js-scroll-trigger" to="/skills">skills</Link>
+

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-const Header = () => {
+const Projects = () => {
   return (
     <>
       <nav
@@ -52,14 +52,14 @@ const Header = () => {
             </li>
             <li className="nav-item">
               <Link className="nav-link js-scroll-trigger" to="/interests">
-                About me
+                Interests
               </Link>
             </li>
-            <li className="nav-item">
-              <Link className="nav-link js-scroll-trigger" to="/project">
-                Projects
+            {/* <li className="nav-item">
+              <Link className="nav-link js-scroll-trigger" to="/awards">
+                Awards
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
       </nav>
@@ -67,4 +67,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Projects;

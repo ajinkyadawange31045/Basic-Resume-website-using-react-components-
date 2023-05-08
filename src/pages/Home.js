@@ -111,7 +111,7 @@ const Home = () => {
         </section>
         <hr className="m-0" /> */}
 
-          <section className="resume-section" id="education">
+          {/* <section className="resume-section" id="education">
             <div className="resume-section-content">
               <h2 className="mb-5">Education</h2>
               <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
@@ -240,7 +240,7 @@ const Home = () => {
             </p>
           </div>
         </section>
-        <hr className="m-0" />
+        <hr className="m-0" /> */}
 
         {/* <section className="resume-section" id="awards">
           <div className="resume-section-content">

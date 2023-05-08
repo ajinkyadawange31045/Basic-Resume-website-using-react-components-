@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../components/Header";
 
-const Award = () => {
+const Project1 = () => {
   return (
     <>
       <div className="container-fluid p-0">
@@ -68,4 +68,4 @@ const Award = () => {
   );
 };
 
-export default Award;
+export default Project1;

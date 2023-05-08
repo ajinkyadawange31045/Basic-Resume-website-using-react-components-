@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Award from "./pages/Award";
+import Project from "./pages/Project";
 import Education from "./pages/Education";
 import Experience from "./pages/Experience";
 import Home from "./pages/Home";
@@ -16,7 +16,7 @@ const App = () => {
           <Route path="/education" element={<Education />} />
           <Route path="/skills" element={<Skills />} />
           <Route path="/interests" element={<Interest />} />
-          <Route path="/awards" element={<Award />} />
+          <Route path="/project" element={<Project />} />
         </Routes>
       </BrowserRouter>
     </>
