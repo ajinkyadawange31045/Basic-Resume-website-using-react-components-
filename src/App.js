@@ -6,6 +6,8 @@ import Experience from "./pages/Experience";
 import Home from "./pages/Home";
 import Interest from "./pages/Interest";
 import Skills from "./pages/Skills";
+import UbWebsiteProject  from "./projects/Ub_website";
+import Accountsproject from "./projects/Shantipur";
 const App = () => {
   return (
     <>
@@ -17,6 +19,9 @@ const App = () => {
           <Route path="/skills" element={<Skills />} />
           <Route path="/interests" element={<Interest />} />
           <Route path="/project" element={<Project />} />
+          <Route path="/project/utkrishta-bharath" element={<UbWebsiteProject  />} />
+          <Route path="/project/account-management-shantipur" element={<Accountsproject />} />
+          {/* <Route path="/project/utkrishta-bharath" element={<Ub_website_project />} /> */}
         </Routes>
       </BrowserRouter>
     </>
