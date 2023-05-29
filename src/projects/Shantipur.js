@@ -59,7 +59,7 @@ const Accountsproject = () => {
             <div>
             
           <h4 className="mt-5">Checkout </h4>
-              <a className="text-light btn btn-dark m-2 " href="/github.com" target="_blank" rel="noreferrer">Github</a>
+              <a className="text-light btn btn-dark m-2 " href="https://github.com/ajinkyadawange31045/Shantipur-finance-management" target="_blank" rel="noreferrer">Github</a>
               <a className="text-light btn btn-dark m-2 " href="http://ajinkya31045.pythonanywhere.com/" target="_blank" rel="noreferrer">Visit</a>
        
           </div>   

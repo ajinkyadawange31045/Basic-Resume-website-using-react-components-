@@ -9,7 +9,53 @@ const Skills = () => {
         <section className="resume-section" id="skills">
           <div className="resume-section-content">
             <h2 className="mb-5">Skills</h2>
-            <div className="subheading mb-3">Programming Languages & Tools</div>
+
+            <div className="subheading mb-3">Workflow</div>
+            <ul className="fa-ul mb-5">
+              <li>
+                <span className="fa-li">
+                  <i className="fas fa-check"></i>
+                </span>
+                Data Structures and Algorithms
+              </li>
+              <li>
+                <span className="fa-li">
+                  <i className="fas fa-check"></i>
+                </span>
+                DBMS
+              </li>
+              <li>
+                <span className="fa-li">
+                  <i className="fas fa-check"></i>
+                </span>
+                OS
+              </li>
+              <li>
+                <span className="fa-li">
+                  <i className="fas fa-check"></i>
+                </span>
+                Computer Networks
+              </li>
+              <li>
+                <span className="fa-li">
+                  <i className="fas fa-check"></i>
+                </span>
+                Web Developement (Using Django Framework)
+              </li>
+              <li>
+                <span className="fa-li">
+                  <i className="fas fa-check"></i>
+                </span>
+                Machine Learning (basics)
+              </li>
+            </ul>
+
+
+
+
+
+         
+            <div className="subheading mb-2">Programming Languages & Tools</div>
             <ul className="list-inline dev-icons">
               <li className="list-inline-item">
                 <i className="fab fa-html5"></i>
@@ -48,33 +94,7 @@ const Skills = () => {
                 <i className="fab fa-npm"></i>
               </li>
             </ul>
-            <div className="subheading mb-3">Workflow</div>
-            <ul className="fa-ul mb-0">
-              <li>
-                <span className="fa-li">
-                  <i className="fas fa-check"></i>
-                </span>
-                Mobile-First, Responsive Design
-              </li>
-              <li>
-                <span className="fa-li">
-                  <i className="fas fa-check"></i>
-                </span>
-                Cross Browser Testing & Debugging
-              </li>
-              <li>
-                <span className="fa-li">
-                  <i className="fas fa-check"></i>
-                </span>
-                Cross Functional Teams
-              </li>
-              <li>
-                <span className="fa-li">
-                  <i className="fas fa-check"></i>
-                </span>
-                Agile Development & Scrum
-              </li>
-            </ul>
+        
           </div>
         </section>
         <hr className="m-0" />

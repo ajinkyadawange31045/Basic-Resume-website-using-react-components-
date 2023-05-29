@@ -8,6 +8,8 @@ import Interest from "./pages/Interest";
 import Skills from "./pages/Skills";
 import UbWebsiteProject  from "./projects/Ub_website";
 import Accountsproject from "./projects/Shantipur";
+import StudySpace from "./projects/StudySpace";
+import Miniblog from "./projects/Miniblog";
 const App = () => {
   return (
     <>
@@ -21,7 +23,8 @@ const App = () => {
           <Route path="/project" element={<Project />} />
           <Route path="/project/utkrishta-bharath" element={<UbWebsiteProject  />} />
           <Route path="/project/account-management-shantipur" element={<Accountsproject />} />
-          {/* <Route path="/project/utkrishta-bharath" element={<Ub_website_project />} /> */}
+          <Route path="/project/study-space" element={<StudySpace />} />
+          <Route path="/project/mini-blog" element={<Miniblog />} />
         </Routes>
       </BrowserRouter>
     </>
