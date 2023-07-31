@@ -21,10 +21,10 @@ const App = () => {
           <Route path="/skills" element={<Skills />} />
           <Route path="/interests" element={<Interest />} />
           <Route path="/project" element={<Project />} />
-          <Route path="/project/utkrishta-bharath" element={<UbWebsiteProject  />} />
-          <Route path="/project/account-management-shantipur" element={<Accountsproject />} />
-          <Route path="/project/study-space" element={<StudySpace />} />
-          <Route path="/project/mini-blog" element={<Miniblog />} />
+          <Route path="/utkrishta-bharath" element={<UbWebsiteProject  />} />
+          <Route path="/account-management-shantipur" element={<Accountsproject />} />
+          <Route path="/study-space" element={<StudySpace />} />
+          <Route path="/mini-blog" element={<Miniblog />} />
         </Routes>
       </BrowserRouter>
     </>
