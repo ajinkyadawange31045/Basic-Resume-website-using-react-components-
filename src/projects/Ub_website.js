@@ -8,6 +8,7 @@ const UbWebsiteProject = () => {
       <section className="resume-section" id="awards">
         <div className="resume-section-content">
           <h2 className="mb-5">Utkrishta Bharath Website</h2>
+          
           <ul className="fa-ul mb-0">
             <li>
               Developed and hosted on a container provided by college using LXD (Nginx and Gunicorn) for our club, Utkrishta Bharath.
@@ -31,6 +32,16 @@ const UbWebsiteProject = () => {
               </ul>
             </li>
           </ul>
+          <div className="video-container mt-4">
+              <iframe
+                width="810"
+                height="450"
+                src="https://www.youtube.com/embed/qP8kir2GUgo"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen ></iframe>
+          </div>
 
           <h4 className="mt-5">Checkout</h4>
           <a

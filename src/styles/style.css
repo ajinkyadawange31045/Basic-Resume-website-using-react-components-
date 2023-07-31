@@ -11533,3 +11533,8 @@ section.resume-section .resume-section-content {
 .checkout{
   color: white;
 }
+
+.video-container {
+  display: flex;
+  justify-content: center;
+}
