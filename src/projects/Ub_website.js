@@ -33,14 +33,13 @@ const UbWebsiteProject = () => {
             </li>
           </ul>
           <div className="video-container mt-4">
-              <iframe
+          {/* <iframe
                 width="810"
                 height="450"
                 src="https://www.youtube.com/embed/qP8kir2GUgo"
                 title="YouTube video player"
-                frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen ></iframe>
+                allowFullScreen ></iframe> */}
           </div>
 
           <h4 className="mt-5">Checkout</h4>
