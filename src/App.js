@@ -11,6 +11,7 @@ import UbWebsiteProject  from "./projects/Ub_website";
 import Accountsproject from "./projects/Shantipur";
 import StudySpace from "./projects/StudySpace";
 import Miniblog from "./projects/Miniblog";
+import ResumeReact from "./projects/resume-react-website";
 const App = () => {
   return (
     <>
@@ -26,6 +27,8 @@ const App = () => {
           <Route path="/projects/account-management-shantipur" element={<Accountsproject />} />
           <Route path="/projects/study-space" element={<StudySpace />} />
           <Route path="/projects/mini-blog" element={<Miniblog />} />
+          <Route path="/projects/resume-react" element={<ResumeReact/>}></Route>
+          {/* <Route path" */}
         </Routes>
       </BrowserRouter>
     </>

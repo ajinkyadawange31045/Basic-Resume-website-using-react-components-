@@ -14,6 +14,12 @@ const Education = () => {
                 <h3 className="mb-0">sharad pawar public school</h3>
                 <div className="subheading mb-3">Schooling -Till class 10th</div>
                 <p>Percentage: 88%</p>
+                <p>
+                  Collaboratively administrate empowered markets via
+                  plug-and-play networks. Dynamically procrastinate B2C users
+                  after installed base benefits. Dramatically visualize customer
+                  directed convergence without revolutionary ROI.
+                </p>
               </div>
               <div className="flex-shrink-0">
                 <span className="text-primary">2011-2018</span>
