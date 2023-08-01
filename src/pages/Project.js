@@ -33,7 +33,7 @@ const Project = () => {
                   
 
                   
-                  {/* <Link to="/projects/account-management-shantipur" className="card-link" > Know More </Link>  */}
+                  <Link to="/projects/account-management-shantipur" className="card-link" > Know More </Link> 
                   {/* <a href="/account-management-shantipur" className="card-link" rel="noreferrer">Know More</a> */}
                   
                   </p>
@@ -45,7 +45,7 @@ const Project = () => {
                   
 
                   
-                  {/* <Link to="/projects/study-space" className="card-link" > Know More </Link>  */}
+                  <Link to="/projects/study-space" className="card-link" > Know More </Link> 
                   {/* <a href="/study-space" className="card-link" rel="noreferrer">Know More</a> */}
                   
                   </p>
@@ -57,7 +57,7 @@ const Project = () => {
                   
 
                   
-                  {/* <Link to="/projects/mini-blog" className="card-link" > Know More </Link>  */}
+                  <Link to="/projects/mini-blog" className="card-link" > Know More </Link> 
                   {/* <a href="/mini-blog" className="card-link" rel="noreferrer">Know More</a> */}
                   
                   </p>
@@ -69,7 +69,7 @@ const Project = () => {
                   
 
                   
-                  {/* <Link to="/projects/utkrishta-bharath" className="card-link" > Know More </Link>  */}
+                  <Link to="/projects/utkrishta-bharath" className="card-link" > Know More </Link> 
                   {/* <a href="/utkrishta-bharath" className="card-link" rel="noreferrer">Know More</a> */}
                   
                   </p>
@@ -81,7 +81,7 @@ const Project = () => {
                   
 
                   
-                  {/* <Link to="/projects/utkrishta-bharath" className="card-link" > Know More </Link>  */}
+                  <Link to="/projects/utkrishta-bharath" className="card-link" > Know More </Link> 
                   {/* <a href="/utkrishta-bharath" className="card-link" rel="noreferrer">Know More</a> */}
                   
                   </p>
@@ -93,7 +93,7 @@ const Project = () => {
                   
 
                   
-                  {/* <Link to="/projects/utkrishta-bharath" className="card-link" > Know More </Link>  */}
+                  <Link to="/projects/utkrishta-bharath" className="card-link" > Know More </Link> 
                   {/* <a href="/utkrishta-bharath" className="card-link" rel="noreferrer">Know More</a> */}
                   
                   </p>
