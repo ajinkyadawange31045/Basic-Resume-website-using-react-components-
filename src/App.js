@@ -1,4 +1,5 @@
 import React from "react";
+
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Project from "./pages/Project";
 import Education from "./pages/Education";
@@ -21,10 +22,10 @@ const App = () => {
           <Route path="/skills" element={<Skills />} />
           <Route path="/interests" element={<Interest />} />
           <Route path="/project" element={<Project />} />
-          <Route path="/utkrishta-bharath" element={<UbWebsiteProject  />} />
-          <Route path="/account-management-shantipur" element={<Accountsproject />} />
-          <Route path="/study-space" element={<StudySpace />} />
-          <Route path="/mini-blog" element={<Miniblog />} />
+          <Route path="/projects/utkrishta-bharath" element={<UbWebsiteProject  />} />
+          <Route path="/projects/account-management-shantipur" element={<Accountsproject />} />
+          <Route path="/projects/study-space" element={<StudySpace />} />
+          <Route path="/projects/mini-blog" element={<Miniblog />} />
         </Routes>
       </BrowserRouter>
     </>
