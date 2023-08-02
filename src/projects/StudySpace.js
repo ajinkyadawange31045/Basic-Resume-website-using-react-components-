@@ -38,7 +38,7 @@ const StudySpace = () => {
                       <span className="fa-li">
                         
                       </span>
-                      Urls are noth slug field as well as integers
+                      Urls are slug field as well as integers
                     </li>
                     <li>
                       <span className="fa-li">

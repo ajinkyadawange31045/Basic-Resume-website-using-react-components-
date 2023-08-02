@@ -69,7 +69,7 @@ const Project = () => {
                   
 
                   
-                  <Link to="/projects/utkrishta-bharath" className="card-link" > Know More </Link> 
+                  <Link to="/projects/resume-django-static" className="card-link" > Know More </Link> 
                   {/* <a href="/utkrishta-bharath" className="card-link" rel="noreferrer">Know More</a> */}
                   
                   </p>

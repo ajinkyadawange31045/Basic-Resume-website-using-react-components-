@@ -12,6 +12,7 @@ import Accountsproject from "./projects/Shantipur";
 import StudySpace from "./projects/StudySpace";
 import Miniblog from "./projects/Miniblog";
 import ResumeReact from "./projects/resume-react-website";
+import ResumeDjango from "./projects/resume-django";
 const App = () => {
   return (
     <>
@@ -28,6 +29,7 @@ const App = () => {
           <Route path="/projects/study-space" element={<StudySpace />} />
           <Route path="/projects/mini-blog" element={<Miniblog />} />
           <Route path="/projects/resume-react" element={<ResumeReact/>}></Route>
+          <Route path="/projects/resume-django-static" element={<ResumeDjango/>}></Route>
           {/* <Route path" */}
         </Routes>
       </BrowserRouter>
