@@ -33,15 +33,7 @@ const UbWebsiteProject = () => {
               </ul>
             </li>
           </ul>
-          <div className="video-container mt-4">
-          <iframe
-                width="810"
-                height="450"
-                src="https://www.youtube.com/embed/qP8kir2GUgo"
-                title="YouTube video player"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowFullScreen ></iframe>
-          </div>
+          
 
           <h4 className="mt-5">Checkout</h4>
           <a
@@ -58,8 +50,17 @@ const UbWebsiteProject = () => {
             target="_blank"
             rel="noreferrer"
           >
-            Visit
+            <i class="fa-solid fa-arrow-up-right-from-square fa-bounce"></i>
           </a>
+          <div className="video-container mt-4">
+          <iframe
+                width="810"
+                height="450"
+                src="https://www.youtube.com/embed/qP8kir2GUgo"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen ></iframe>
+          </div>
         </div>
       </section>
     </div>

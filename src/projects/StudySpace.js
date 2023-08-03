@@ -86,7 +86,9 @@ const StudySpace = () => {
             
           <h4 className="mt-5">Checkout </h4>
               <a className="text-light btn btn-dark m-2 " href="https://github.com/ajinkyadawange31045/study_space" target="_blank" rel="noreferrer">Github</a>
-              <a className="text-light btn btn-dark m-2 " href="https://studyspace.pythonanywhere.com" target="_blank" rel="noreferrer">Visit</a>
+              <a className="text-light btn btn-dark m-2 " href="https://studyspace.pythonanywhere.com" target="_blank" rel="noreferrer">
+              <i class="fa-solid fa-arrow-up-right-from-square fa-bounce"></i>
+              </a>
        
           </div>   
             </div>

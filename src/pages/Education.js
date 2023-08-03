@@ -15,10 +15,7 @@ const Education = () => {
                 <div className="subheading mb-3">Schooling -Till class 10th</div>
                 <p>Percentage: 88%</p>
                 <p>
-                  Collaboratively administrate empowered markets via
-                  plug-and-play networks. Dynamically procrastinate B2C users
-                  after installed base benefits. Dramatically visualize customer
-                  directed convergence without revolutionary ROI.
+                I completed my schooling at Border School, where I resided in hostels from a young age. Those years were truly memorable as I explored a diverse range of sports, including Hockey, Basketball, Swimming, Cricket, Football, Karate, Horse Riding, and Rifle Shooting, with a particular flair for Hockey and Basketball. I take pride in being a three-time state player in Hockey, which further fueled my passion for the game. While academics were a part of the journey, my truest joy lay in the thrill of competitive play. Embracing hostel life to its fullest, I cherish the memories and experiences that have shaped me into the proficient and cool individual I am today.
                 </p>
               </div>
               <div className="flex-shrink-0">
@@ -31,6 +28,17 @@ const Education = () => {
                 <h3 className="mb-0">St. Lawrence Highschool</h3>
                 <div className="subheading mb-3">Class 11th and 12th</div>
                 <p>Percentage: 86.86%</p>
+              </div>
+              <div className="flex-shrink-0">
+                <span className="text-primary">2018-2020</span>
+              </div>
+            </div>
+
+            <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
+              <div className="flex-grow-1">
+                <h3 className="mb-0">Resonance</h3>
+                <div className="subheading mb-3">Class 11th and 12th Coaching classes, Nashik branch</div>
+                <p>Percentile: 99.51</p>
               </div>
               <div className="flex-shrink-0">
                 <span className="text-primary">2018-2020</span>

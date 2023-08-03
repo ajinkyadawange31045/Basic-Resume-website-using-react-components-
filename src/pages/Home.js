@@ -8,10 +8,10 @@ const Home = () => {
         <Header />
         <section className="resume-section" id="about">
           <div className="resume-section-content">
-            <h1 className="mb-0">
+            <h2 className="mb-0 pr-2">
               Ajinkya&nbsp;
               <span className="text-primary">Dawange</span>
-            </h1>
+            </h2>
             <div className="subheading mb-5">
               Nashik, Maharashtra, India &nbsp; &nbsp;
               <a className="text-lowercase" href="mailto:ajinkyadawange31045ard@gmail.com">ajinkyadawange31045ard@gmail.com</a>
