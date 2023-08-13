@@ -12,7 +12,7 @@ const ResumeReact = () => {
           
           <ul className="fa-ul mb-0">
             <li>
-              Not hosted
+              {/* Not hosted */}
             </li>
             <li>
               For front-end designing, Bootstrap is used.

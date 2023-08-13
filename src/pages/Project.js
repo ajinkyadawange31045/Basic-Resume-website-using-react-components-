@@ -86,18 +86,7 @@ const Project = () => {
                   
                   </p>
               </div>
-              <div className="card">
-                <img src="assets/img/profile.jpg" alt="" />
-                <p className="card-desc ">Machine learning project - Internshala</p>
-                <p className="card-title btn btn-light">
-                  
-
-                  
-                  <Link to="/projects/utkrishta-bharath" className="card-link" > Know More </Link> 
-                  {/* <a href="/utkrishta-bharath" className="card-link" rel="noreferrer">Know More</a> */}
-                  
-                  </p>
-              </div>
+              
           </div>
 
         
