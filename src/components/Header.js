@@ -51,7 +51,7 @@ const Header = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link js-scroll-trigger" to="/interests">
+              <Link className="nav-link js-scroll-trigger" to="/about-me">
                 About me
               </Link>
             </li>
