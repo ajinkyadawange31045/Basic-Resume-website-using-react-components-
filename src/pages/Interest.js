@@ -20,16 +20,25 @@ const Interest = () => {
               <div className="resume-section-content" style={{ padding: "30px" }}>
                 <h2 className="mb-4">About Me</h2>
                 <p>
-                  Apart from being a web developer, I enjoy most of my time being
-                  outdoors. In the winter, I am an avid skier and novice ice
-                  climber. During the warmer months here in Colorado, I enjoy
-                  mountain biking, free climbing, and kayaking.
-                </p>
+                  
+
+
+Apart from being a web developer, I enjoy most of my time being outdoors. 
+I love traveling and reading books. In the past 3 years, 
+I have been to almost all the spiritual places in India,
+which includes Vrindavan Mathura (in the first year), Srirangam (in the second year), Mayapur (in the second year),
+Jagannath Puri (in third year), Kanchipuram (in third year),
+Tirupati (in third year), Udupi-Pajaka (in third year), etc.
+
+
+
+                 </p>
                 <p className="mb-0">
-                  When forced indoors, I follow a number of sci-fi and fantasy genre
-                  movies and television shows, I am an aspiring chef, and I spend a
-                  large amount of my free time exploring the latest technology
-                  advancements in the front-end web development world.
+                  
+When forced indoors, I watch a number of sci-fi and historical movies. I am an aspiring student, and I spend a
+large amount of my free time exploring the latest technological advancements in the web development world.
+With my present skills, I try to build the product that will help me and the majority of the people out there.
+
                 </p>
               </div>
             </div>
