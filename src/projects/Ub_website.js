@@ -10,6 +10,16 @@ const UbWebsiteProject = () => {
         <div className="resume-section-content">
           <h2 className="mb-5">Utkrishta Bharath Website</h2>
           
+          <div className="video-container my-4 ">
+          {/* <iframe
+                width="810"
+                height="450"
+                src="https://www.youtube.com/embed/qP8kir2GUgo"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen ></iframe> */}
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/5gZ3pUySxMc?si=NFGN3BcWg_GYho55" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
           <ul className="fa-ul mb-0">
             <li>
               Developed and hosted on a container provided by college using LXD (Nginx and Gunicorn) for our club, Utkrishta Bharath.
@@ -52,15 +62,6 @@ const UbWebsiteProject = () => {
           >
             <i class="fa-solid fa-arrow-up-right-from-square fa-bounce"></i>
           </a>
-          <div className="video-container mt-4">
-          {/* <iframe
-                width="810"
-                height="450"
-                src="https://www.youtube.com/embed/qP8kir2GUgo"
-                title="YouTube video player"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowFullScreen ></iframe> */}
-          </div>
         </div>
       </section>
     </div>
